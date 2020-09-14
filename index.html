@@ -9,6 +9,14 @@
 		i{
 			font-style: normal; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 		}
+		
+		.header{
+			color: plum; font-size:125%
+		}
+		
+		#materials{
+			color:brown; font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+		}
 	
 	</style>
 </head>
@@ -17,26 +25,56 @@
 		
 	<h1>My ArtWork</h1>
 	<hr>
-	<h2>About Me</h2>
-		<p>I began drawing small doodles for my friends in middle school. What began as small doodles for friends led to more students asking for bigger pieces. As a young kid I wasn't interested in making these drawings for people so I stopped drawing completly. Junior year of High School my friends discovered my secret talent. I didn't want them to at first because I'm an introvert and didn't really want the attention. Well a couple of weeks go by and I start drawing again due to some peer pressure and some excitement. Soon a lot of people at school begin asking for pictures and instead of turning them down I decided to do it. I was very rusty at first as some can tell. With some repition (and I mean <b style="color:blueviolet">A LOT</b> of repition) I felt like I was doing better. Now I like trying new types of utensils to make a piece. I started using <i style="color:crimson"> Procreate</i>,<i style="color:cadetblue"> Paints</i>, and <i style="color:darkgreen">Markers/Colored Pencils</i>.</p>
-	
+	<h2><a href="aboutme.html">About Me</a></h2>
+		
 		<p>Hey stop what you're doing!!!!! Go check out my <a href="https://brillersdoodles24.blogspot.com/"> blog</a> if you want:)</p>
 	
-	<h2>Mr. Jack Skellington</h2>
-		<img src="Images copy/jackskellington.JPG" width="201" height="400" alt="Drawing of Jack Skellington">
-		<p title="Jack Skellington"> This was one of my first drawings. </p>
-	<hr>
+	<table style=" width: 50%; border: medium dotted; border-color: darkviolet">
+		
+		<tr align="left">
+			<th class="header">Image</th>
+			<th class="header">Material Used</th>
+			<th class="header">How difficult?</th>
+		</tr>
+		
+		<tr>
+			<td><img src="Images copy/favoritedrawing.jpeg" width="243" height="300" alt="my favorite drawing"></td>
+			<td>Just a pencil pen and paper</td>
+			<td>Not too difficult. I managed well.</td>
+		</tr>
+		
+		<tr>
+			<td><img src="Images copy/willowtree.jpeg" width="243" height="243" alt="weeping willow"> </td>
+			<td>Procreate on IPad</td>
+			<td>This was very hard to do. I am not that good at digital art yet.</td>
+		</tr>
+	
+	</table>
+	
+	<h3 id="materials">My favorite materials to use.</h3>
+		<ol>
+			<li>Pencil/Pen</li>
+			<li>IPad</li>
+			<li id="paints"> </li>
+			<li>Markers</li>
+			<li>Sharpie</li>
+		</ol>
+	
+	
 	
 	<h3>The Compass</h3>
 		<img src="Images copy/compass.JPG" width="400" height="400" alt="Drawing of woods inside a compass">
 		<p style="color:blueviolet;">My friend inspired me to draw this compass. </p>
 	<hr>
 	
-	<h4>Weeping Willow Tree</h4>
-		<img src="Images copy/willowtree.jpeg" width="400" height="400" alt="A weeping willow tree over a waterfall drawn on procreate">
-		<p><b>This is my first digital drawing.</b> <i>It is of a weeping willow.</i></p>
-
+	
+	<h4>TO BE CONTINUED</h4>
+	
+	
 
 
 </body>
+	<script>
+		document.getElementById("paints").innerHTML="Paint";
+	</script>
 </html>
